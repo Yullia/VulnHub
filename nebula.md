@@ -329,7 +329,7 @@ You have successfully executed getflag on a target account
  ```
  
  
- ##level11
+ ## level11
  [task description](https://exploit-exercises.lains.space/nebula/level1/)
 
  
@@ -361,7 +361,7 @@ getflag is executing on a non-flag account, this doesn't count
 system() isn't processed  with  setresuid/setresgid and command in this case runs as the real UID instead of flag11 UID. 
 Both paths of solving lead to the system() call, in any case, program will be executed without effective privilege.
 
-##level12
+## level12
 [task description](https://exploit-exercises.lains.space/nebula/level12/)
 
  Here we have  **password**  variable  which could be used in **popen()** call to inject our command.
@@ -385,7 +385,7 @@ level12@nebula:/home/flag12$ cat /tmp/level12
 You have successfully executed getflag on a target account
 
  ```
-##level13
+## level13
 [task description](https://exploit-exercises.lains.space/nebula/level13/)
 
 Code verifies UID and compares it with 1000. So it seems, that only way to run binary and get token is to pass the check.
@@ -467,7 +467,8 @@ sh-4.2$ getflag g
 You have successfully executed getflag on a target account
  ```
  
- ##level14
+ ## level14
+ 
  [task description](https://exploit-exercises.lains.space/nebula/level14/)
  We need to decrypt token file: 
  ```sh
@@ -505,7 +506,7 @@ sh-4.2$
  ```
  
  
- ##level15
+ ## level15
 
  [task description](https://exploit-exercises.lains.space/nebula/level15/)
  
